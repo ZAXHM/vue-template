@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev:dev": "vue-cli-service serve --mode dev",
-    "dev:alpha": "vue-cli-service serve --mode alpha",
-    "dev:prod": "vue-cli-service serve --mode prod",
-    "build": "vue-cli-service build"
+    "dev": "vue-cli-service serve",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build:alpha": "vue-cli-service build --mode alpha",
+    "build:prod": "vue-cli-service build --mode prod"
   },
   "dependencies": {
     "axios": "^0.18.0",
